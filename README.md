@@ -1,3 +1,16 @@
+<script src="dist/autotyping.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const exampleText = ['I can write a whole sentence.', 'Or', 'single', 'words'];
+        const exampleTyping = new AutoTyping('.example-selector', exampleText, {
+            typeSpeed: 50,
+            deleteSpeed: 50,
+            waitBeforeDelete: 2000,
+            waitBetweenWords: 500,
+        });
+        exampleTyping.start()
+    });
+</script>
 # 💫 About Me:
 Welcome to my Github! I am Suvan Kasina, a sophomore pursuing Computer Science at the University of Texas at San Antonio.<br>My passion lies in solving complex problems through code and building efficient, scalable applications.<br>On this page, you'll find a selection of projects that showcase my skills in software development, web design, and various programming languages.<br><br>I am seeking a Computer Science internship to apply and expand technical expertise in various programming languages.<br>I have a Proven ability to lead teams, adapt to fast-paced environments, and collaborate effectively through strong communication and problem-solving skills.<br>I am Eager to contribute to innovative projects and grow within a dynamic software development team.<br><br>Feel free to explore my work on GitHub, where I regularly update my repositories with new projects and contributions.<br><br><br>
 # 💻 Tech Stack:
